@@ -1,0 +1,43 @@
+%!TEX program = xelatex
+
+\documentclass[a4paper,twocolumn]{article}
+\usepackage[landscape,margin=0.5in]{geometry}
+\setlength{\columnseprule}{0.4pt}
+
+\usepackage{fontspec}
+\setmonofont{Courier New}
+
+\usepackage{xcolor}
+
+\usepackage{listings}
+\lstset{
+  language=C++,
+  breaklines=true,
+  basicstyle=\footnotesize\ttfamily,
+  % numbers=left,
+  % backgroundcolor=\color{white},
+  % keywordstyle=\color{blue},
+  % commentstyle=\color{green},
+  % numberstyle=\tiny\color{gray},
+  % stringstyle=\color{purple}
+}
+
+
+\title{Dumbear Template Library}
+\author{Dumbear}
+
+\begin{document}
+
+\begin{titlepage}
+
+\maketitle
+
+\end{titlepage}
+
+\tableofcontents
+
+\clearpage
+
+\input{computational-geometry/main.tex}
+
+\end{document}
