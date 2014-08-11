@@ -22,6 +22,7 @@
   % stringstyle=\color{purple}
 }
 
+\usepackage{hyperref}
 
 \title{Dumbear Template Library}
 \author{Dumbear}
@@ -29,15 +30,17 @@
 \begin{document}
 
 \begin{titlepage}
-
 \maketitle
-
 \end{titlepage}
 
 \tableofcontents
 
 \clearpage
 
+\input{string_processing/main.tex}
 \input{computational-geometry/main.tex}
+\input{data_structures/main.tex}
+\input{number_theory/main.tex}
+\input{combinatorics/main.tex}
 
 \end{document}
